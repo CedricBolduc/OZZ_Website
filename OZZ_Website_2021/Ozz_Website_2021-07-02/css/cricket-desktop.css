@@ -1,0 +1,69 @@
+/* theme */
+
+
+
+ul.features {
+    width: 100%; 
+    margin: 100px 0 40px; 
+    font-size: 0; 
+    display: block; 
+    text-align: center;
+}
+ul.features li {
+    width: 25%; 
+    display: inline-block; 
+    font-size: 10px;  
+    border-right: 1px solid #ececec; 
+    padding: 0 20px; 
+    text-align: center; 
+    margin-bottom: 60px; 
+    vertical-align: top;
+}
+ul.features li:last-child {
+    border-right: 0px solid #ececec; 
+}
+ul.features li:nth-child(4) {
+    border-right: 0px solid #ececec; 
+}
+ul.features li div.feature-logo { 
+    padding-bottom: 3em
+}
+ul.features li div.feature-logo img { 
+    max-width: 285px;
+}
+ul.features li h5 { 
+    width: 100%; 
+    display: block; 
+    margin: 0 auto 1.5em; 
+    text-align: center; 
+    font-family:'HelveticaNeueW01-65Medi'; 
+    font-size: 1.8em; 
+    line-height: 1.2
+}
+ul.features li p { 
+    font-family:'HelveticaNeueW01-45Ligh'; 
+    font-size: 1.8em; 
+    min-height: 9em; 
+    line-height: 1.5; 
+    display: block; 
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+h5 {
+    text-align: left; 
+    font-size: 1.8em; 
+    font-family:'HelveticaNeueW01-75Bold'; 
+    color:#252525;
+}
+
+a.go { 
+    font-family:'HelveticaNeueW01-85Heav'; 
+    font-size: 1.6em; 
+    color: #fff; 
+    background-color: #37A; 
+    padding: 1em; 
+    display: inline-block; 
+}
+
+
